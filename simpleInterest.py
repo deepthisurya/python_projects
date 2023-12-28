@@ -17,7 +17,7 @@ def simple_interest():
     principal_amount,time_period,rate_of_interest = get_data_SI()
     return (principal_amount*time_period*rate_of_interest)/100
 
-#Main function printing the computed data
+#Main function printing the computed data - ok
 
 if __name__ == '__main__':
     print("The Simple Interest for given information - ",simple_interest())
