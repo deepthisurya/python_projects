@@ -24,5 +24,5 @@ def getMax(list):
 if __name__ == '__main__':
     num_list = get_num_list()
     print(num_list)
-    print(getMax(num_list))
-    print(getMin(num_list))
+    print("The maximum number is the list is  - ",getMax(num_list))
+    print("The Minimum number in the list is  - ",getMin(num_list))
